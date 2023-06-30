@@ -10,3 +10,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %> 
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+
+<context:component-scan base-package="com.jsp"></context:component-scan>
+<context:annotation-config></context:annotation-config>
